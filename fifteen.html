@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<script type = "text/javascript" src = "fifteen.js"> </script>
+
+<link rel = "stylesheet" type = "text/css" href = "fifteencss.css"/>
+
+
+</head>
+
+<body>
+
+<p> Select one of these four backgrounds </p>
+<div class= "backgroundchanger">
+<button name = "background1" id = "background1" type = "button" value = "changebackground" onclick = "return changebackgroundoption1()"> Castle  </button>
+<button name = "background2" id = "background2" type = "button" value = "changebackground" onclick = "return changebackgroundoption2()"> Mountains  </button>
+<button name = "background3" id = "background3" type = "button" value = "changebackground" onclick = "return changebackgroundoption3()"> Ocean  </button>
+<button name = "background4" id = "background4" type = "button" value = "changebackground" onclick = "return changebackgroundoption4()"> Space  </button>
+</div>
+
+<table class = "newclassusedtocreatetable" id = "puzzletable"  >
+
+<tr class = "classusedforrow1" ondrop = "return newdroppingfunction(event)" ondragover = "return droppingpermission(event)"> 
+
+   <td class = "r1blocks1" draggable = "true" id = "b1" ondragstart = "return newdraggingfunction(event)" ondrop = "return newdroppingfunction(event)"  > 1 </td>
+   <td class = "r1blocks2" draggable = "true" id = "b2" ondragstart = "return newdraggingfunction(event)" ondrop = "return newdroppingfunction(event)"  > 2 </td>
+   <td class = "r1blocks3" draggable = "true" id = "b3" ondragstart = "return newdraggingfunction (event)"ondrop = "return newdroppingfunction(event)"  > 3  </td>
+   <td class = "r1blocks4" draggable = "true" id = "b4" ondragstart = "return newdraggingfunction (event)"ondrop = "return newdroppingfunction(event)"  > 4  </td> 
+</tr>
+
+
+<tr class = "classusedforrow2" ondrop = "return newdroppingfunction(event)" ondragover = "return droppingpermission(event)"> 
+   <td class = "r2blocks1" draggable = "true" id = "b5" ondragstart = "return newdraggingfunction(event)"  > 5 </td>
+   <td class = "r2blocks2" draggable = "true" id = "b6" ondragstart = "return newdraggingfunction(event)" > 6 </td>
+   <td class = "r2blocks3" draggable = "true" id = "b7" ondragstart = "return newdraggingfunction(event)" > 7 </td>
+   <td class = "r2blocks4" draggable = "true" id = "b8" ondragstart = "return newdraggingfunction(event)" > 8 </td>
+</tr>
+
+<tr class = "classusedforrow3" ondrop = "return newdroppingfunction(event)" ondragover = " return droppingpermission(event)"> 
+   <td class = "r3blocks1" draggable = "true" id = "b9" ondragstart = "return newdraggingfunction(event)" > 9 </td>
+   <td class = "r3blocks2" draggable = "true" id = "b10" ondragstart = "return newdraggingfunction(event)" > 10 </td>
+   <td class = "r3blocks3" draggable = "true" id = "b11" ondragstart = "return newdraggingfunction(event)" > 11 </td>
+   <td class = "r3blocks4" draggable = "true" id = "b12" ondragstart = "return newdraggingfunction(event)" > 12 </td>
+</tr>
+
+<tr class = "classusedforrow4" ondrop = "return newdroppingfunction(event)" ondragover = "return droppingpermission(event)"> 
+   <td class = "r4blocks1" draggable = "true" id = "b13" ondragstart = "return newdraggingfunction(event)" > 13 </td>
+   <td class = "r4blocks2" draggable = "true" id = "b14" ondragstart = "return newdraggingfunction(event)" > 14 </td>
+   <td class = "r4blocks3" draggable = "true" id = "b15" ondragstart = "return newdraggingfunction(event)" > 15 </td>
+   
+ </tr>
+
+ </table>
+
+
+<div class = "portionnumberone" draggable = "true" id = "b1" ondragstart = "return newdraggingfunction (event)"> 1 </div> 
+<div class = "portionnumbertwo" draggable = "true" id = "b2" ondragstart = "return newdraggingfunction(event)"> 2 </div> 
+<div class = "portionnumberthree" draggable = "true" id = "b3" ondragstart = "return newdraggingfunction(event)"> 3 </div>
+<div class = "portionnumberfour" draggable = "true" id = "b4" ondragstart = "return newdraggingfunction(event)"> 4 </div>
+<div class = "portionnumberfive" draggable = "true" id = "b5" ondragstart = "return newdraggingfunction(event)"> 5 </div>
+<div class = "portionnumbersix" draggable = "true" id = "b6" ondragstart = "return newdraggingfunction(event)"> 6 </div>
+<div class = "portionnumberseven" draggable = "true" id = "b7" ondragstart = "return newdraggingfunction(event)"> 7 </div>
+<div class = "portionnumbereight" draggable = "true" id = "b8" ondragstart = "return newdraggingfunction(event)"> 8 </div>
+<div class = "portionnumbernine" draggable = "true" id = "b9" ondragstart = "return newdraggingfunction(event)"> 9 </div>
+<div class = "portionnumberten" draggable = "true" id = "b10" ondragstart = "return newdraggingfunction(event)"> 10 </div>
+<div class = "portionnumbereleven" draggable = "true" id = "b11" ondragstart = "return newdraggingfunction(event)"> 11 </div>
+<div class = "portionnumbertwelve" draggable = "true" id = "b12" ondragstart = "return newdraggingfunction(event)"> 12 </div>
+<div class = "portionnumberthirteen" draggable = "true" id = "b13" ondragstart = "return newdraggingfunction(event)"> 13 </div>
+<div class = "portionnumberfourteen" draggable = "true" id = "b14" ondragstart = "return newdraggingfunction(event)"> 14 </div>
+<div class = "portionnumberfifteen" draggable = "true" id = "b15" ondragstart = "return newdraggingfunction(event)"> 15 </div>
+
+
+
+
+ 
+ 
+<div class= "displayelapsedtime" name = "timetracker" id = "timetracker"> 
+<button name = "shufflebutton" id = "shufflebutton" type = "button" value = "Shuffle" onclick = "return initialtime()"> Shuffle </button>
+<p> Press the shuffle button to begin the game </p>
+</div>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

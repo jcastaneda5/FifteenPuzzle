@@ -1,0 +1,476 @@
+
+.newclassusedtocreatetable
+{
+	
+	width: 500px;
+	height: 500px;
+	border-collapse: collapse;
+}
+
+.classusedforrow1
+{
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 100px;
+	height: 100px;
+}
+
+.r1blocks1
+{
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-position: 0px 0px;
+    background-image: url("ChrisKyle.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+	
+}
+
+.r1blocks2
+{
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-position: -125px 0px;
+    background-image: url("ChrisKyle.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+	
+}
+
+.r1blocks3
+{
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-position: -250px 0px;
+    background-image: url("ChrisKyle.jpg");
+	text-align: right;
+	background-repeat: no-repeat;
+	
+}
+
+.r1blocks4
+{
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-position: -375px 0px;
+    background-image: url("ChrisKyle.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+	
+}
+
+
+
+.classusedforrow2
+{
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 100px;
+	height: 100px;
+}
+
+.r2blocks1
+{
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-position: 0px -125px;
+    background-image: url("ChrisKyle.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+	
+}
+
+.r2blocks2
+{
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-position: -125px -125px;
+    background-image: url("ChrisKyle.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+	
+}
+
+.r2blocks3
+{
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-position: -250px -125px;
+    background-image: url("ChrisKyle.jpg");
+	text-align: right;
+	background-repeat: no-repeat;
+	
+}
+
+.r2blocks4
+{
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-position: -375px -125px;
+    background-image: url("ChrisKyle.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+	
+}
+
+
+.classusedforrow3
+{
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 100px;
+	height: 100px;
+}
+
+.r3blocks1
+{
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-position: 0px -250px;
+    background-image: url("ChrisKyle.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.r3blocks2
+{
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-position: -125px -250px;
+    background-image: url("ChrisKyle.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.r3blocks3
+{
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-position: -250px -250px;
+    background-image: url("ChrisKyle.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.r3blocks4
+{
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-position: -375px -250px;
+    background-image: url("ChrisKyle.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.classusedforrow4
+{
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 100px;
+	height: 100px;
+}
+
+.r4blocks1
+{
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-position: 0px -375px;
+    background-image: url("ChrisKyle.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.r4blocks2
+{
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-position: -125px -375px;
+    background-image: url("ChrisKyle.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.r4blocks3
+{
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-position: -250px -375px;
+    background-image: url("ChrisKyle.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.r4blocks4
+{
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	background-position: -375px -375px;
+    background-image: url("ChrisKyle.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+
+.portionnumberone
+{
+   width:100px;
+   height:100px;
+   float: left;
+   margin: 10px;
+   background-position: 0px 0px;
+   background-image: url("ChrisKyle.jpg");
+   background-repeat: no-repeat;
+   text-align: center;
+   border: 2px solid black;
+
+ }
+ 
+ 
+ 
+
+ .portionnumbertwo
+{
+   width:100px;
+   height:100px;
+   float: left;
+   margin: 10px;   
+   background-position: -125px 0px;
+   background-image: url("ChrisKyle.jpg");
+   background-repeat: no-repeat;
+   border: 2px solid black;
+ }
+ 
+
+.portionnumberthree
+{
+   width:100px;
+   height:100px;
+   float: left;
+   margin: 10px;   
+   background-position: -250px 0px;
+   background-image: url("ChrisKyle.jpg");
+   background-repeat: no-repeat;
+   text-align: right;
+   border: 2px solid black;
+ }
+
+
+.portionnumberfour
+{
+   width:100px;
+   height:100px;
+   float: left;
+   margin: 10px;   
+   background-position: -375px 0px;
+   background-image: url("ChrisKyle.jpg");
+   background-repeat: no-repeat;
+   border: 2px solid black;
+ }
+
+ .portionnumberfive
+{
+   width:100px;
+   height:100px;
+   float: left;
+   margin: 10px;   
+   background-position: 0px -125px;
+   background-image: url("ChrisKyle.jpg");
+   background-repeat: no-repeat;
+   text-align:top;
+   border: 2px solid black;
+   
+ }
+
+.portionnumbersix
+{
+   width:100px;
+   height:100px;
+   float: left;
+   margin: 10px;   
+   background-position: -125px -125px;
+   background-image: url("ChrisKyle.jpg");
+   background-repeat: no-repeat;
+   border: 2px solid black;
+ }
+ 
+ .portionnumberseven
+{
+   width:100px;
+   height:100px;
+   float: left;
+   margin: 10px;   
+   background-position: -250px -125px;
+   background-image: url("ChrisKyle.jpg");
+   background-repeat: no-repeat;
+   border: 2px solid black;
+ }
+ 
+ .portionnumbereight
+{
+   width:100px;
+   height:100px;
+   float: left;
+   margin: 10px;   
+   background-position: -375px -125px;
+   background-image: url("ChrisKyle.jpg");
+   background-repeat: no-repeat;
+   border: 2px solid black;
+ }
+ 
+ .portionnumbernine
+{
+   width:100px;
+   height:100px;
+   float: left;
+   margin: 10px;   
+   background-position: 0px -250px;
+   background-image: url("ChrisKyle.jpg");
+   background-repeat: no-repeat;
+   border: 2px solid black;
+ }
+ 
+ .portionnumberten
+{
+   width:100px;
+   height:100px;
+   float: left;
+   margin: 10px;   
+   background-position: -125px -250px;
+   background-image: url("ChrisKyle.jpg");
+   background-repeat: no-repeat;
+   border: 2px solid black;
+ }
+
+.portionnumbereleven
+{
+   width:100px;
+   height:100px;
+   float: left;
+   margin: 10px;   
+   background-position: =250px -250px;
+   background-image: url("ChrisKyle.jpg");
+   background-repeat: no-repeat;
+   border: 2px solid black;
+ }
+ 
+ .portionnumbertwelve
+{
+   width:100px;
+   height:100px;
+   float: left;
+   margin: 10px;   
+   background-position: -375px -250px;
+   background-image: url("ChrisKyle.jpg");
+   background-repeat: no-repeat;
+   border: 2px solid black;
+ }
+ 
+ .portionnumberthirteen
+{
+   width:100px;
+   height:100px;
+   float: left;
+   margin: 10px;   
+   background-position: 0px -375px;
+   background-image: url("ChrisKyle.jpg");
+   background-repeat: no-repeat;
+   border: 2px solid black;
+ }
+ 
+ .portionnumberfourteen
+{
+   width:100px;
+   height:100px;
+   float: left;
+   margin: 10px;   
+   background-position: -125px -375px;
+   background-image: url("ChrisKyle.jpg");
+   background-repeat: no-repeat;
+   border: 2px solid black;
+ }
+ 
+ .portionnumberfifteen
+{
+   width:100px;
+   height:100px;
+   float: left;
+   margin: 10px;   
+   background-position: -250px -375px;
+   background-image: url("ChrisKyle.jpg");
+   background-repeat: no-repeat;
+   border: 2px solid black;
+ }
+
+
+.displayelapsedtime
+
+{
+	width: 210px;
+	height: 110px;
+	float:left;
+	border: 2px solid black;
+	border-collapse: collapse;
+	
+}
+
+.backgroundchanger
+{
+    width: 210px;
+	height: 110px;
+	float:left;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
